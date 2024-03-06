@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+header{
+    background-color: rgb(46, 46, 46);
+    padding:2rem 0px 1.5rem;
+   position: fixed;
+   top:0;
+   left: 0;
+   right: 0;
+    >nav{
+        font-size:1.8rem;
+        display: flex;
+        gap:3rem;
+    >a{
+        color:white;
+        text-decoration-line: none;
+        padding-left: 2rem;
+    }
+    }
+}
+h1{
+    padding:3rem;
+}
+p{
+    padding: 2rem;
+}
+.showbox{
+    background-image: url("gitar.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 100%;
+    height: 100vh;
+}
+.titlebox{
+  text-align: center; 
+    font-size:4rem;        
+}
+.showbox2{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.titlebox2{
+    text-align: center; 
+    font-size:2.7rem;
+    padding:2rem;
+    line-height:1.5;
+}
+#main{
+    font-size: 4rem;
+}
+button{
+    padding:2rem 3rem;
+    margin:3rem 2rem 4rem;
+    background-color: rgb(194, 46, 46);
+    font-size:1.8rem;
+   
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#imgtitle{
+    font-size: 2rem;
+}
+.showbox3{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2.5rem;
+    line-height:1.5;
+}
+.titlebox3{
+text-align: center;
+>h3{
+    padding:6rem 0px 3rem 0px;
+}
+>button{
+    
+    background-color: rgb(2, 2, 76);
+    color: white;
+    margin-bottom: 0px;
+}  
+>button:hover{
+    background-color: rgb(9, 9, 136);
+}
+}
+.showbox4{
+    background-image:url("section-bg.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width:100%;
+    height:1200px;
+    margin-top:3rem; 
+    
+}
+.showbox4 .titlebox{
+    font-size:2.5rem;
+    line-height: 1.5;
+}
+.showbox4 .titlebox h3{
+    font-size:3rem;
+    padding:0px 0px 2rem;
+}
+.showbox5{
+    display:flex;
+    justify-content:space-around;
+    font-size:1.8rem;
+    gap:5rem;
+    margin: 2rem;
+    padding:3rem;
+    line-height:1.5;
+}
+.titlebox5{
+    >a{text-decoration: none;
+       color: rgb(41, 41, 204);
+} 
+}
+#p2{
+    border-bottom:1.5px rgb(79, 78, 78) solid ;
+    margin-bottom:2rem;
+} 
+footer{
+    background-color: rgb(37, 37, 37);
+    color: rgb(188, 184, 184);
+    padding:3rem 0px;
+    line-height:2;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap:3rem;
+    font-size:2rem;
+}
+.showbox6 {
+    >a{
+        padding-bottom:1rem;
+         margin-bottom: 5rem;
+        text-decoration: none;
+        border-bottom:2px  rgb(79, 78, 78) solid;
+        color: white;
+    }
+>li{
+    list-style: none;
+   
+}
+}
